@@ -1,0 +1,19 @@
+{
+  "name": "knockout-bracket",
+  "version": "1.0.0",
+  "description": "单败淘汰赛签表与轮空晋级后端（TypeScript + Node.js + SQLite）",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test --import ./tests/register.js tests/",
+    "start": "node dist/cli.js serve",
+    "demo": "node dist/cli.js demo"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
